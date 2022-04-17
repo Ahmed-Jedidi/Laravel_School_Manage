@@ -2,7 +2,7 @@
 @section('content')
 
 
-<h2 style="color:blue;">Add New Student </h2>
+<h2 style="color:blue;">Edit Student </h2>
 
 
 <form method="POST" action="{{ route('students.update', $student->id) }}" enctype="multipart/form-data">
@@ -41,7 +41,7 @@
         <!--src="/image/{{ $student->image }}" value="/image/{{ $student->image }}"-->
     </div>
 
-    <button type="submit" class="btn btn-success" style="float:right; width:300px;">Add Student</button>
+    <button type="submit" class="btn btn-success" style="float:right; width:300px;">Edit Student</button>
 </form>
 
 
